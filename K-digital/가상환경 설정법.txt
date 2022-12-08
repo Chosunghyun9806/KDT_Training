@@ -1,0 +1,12 @@
+conda env list
+conda create --name myenv python=3.7
+activate myenv
+conda install jupyter notebook
+conda install tensorflow
+conda install pandas
+--------------------
+pip install plotly
+conda install -c conda-forge pystan
+conda install -c conda-forge fbprophet
+---------------
+conda env remove -n myenv ( 삭제 ) 
